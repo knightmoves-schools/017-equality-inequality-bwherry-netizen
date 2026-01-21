@@ -1,7 +1,7 @@
 ﻿namespace knightmoves;
 public class Store
 {
-    public string PriceCheck(double price == 1.50D) {
+    public string PriceCheck(double price) {
         
         if (price == 1.50) {
             return "match";
@@ -10,7 +10,7 @@ public class Store
             return "";
         }
 
-        public int GuessNumber(int guess == 25) {
+        public int GuessNumber(int guess) {
 
             if (guess != 25){
                 return "not it";
@@ -21,6 +21,7 @@ public class Store
         }        
     }
 }
+
 
 
 
