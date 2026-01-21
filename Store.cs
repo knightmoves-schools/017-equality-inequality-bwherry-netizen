@@ -8,7 +8,7 @@ public class Store
             
         } else {
             return "";
-        }
+        };
 
         public int GuessNumber(int guess) {
 
@@ -21,6 +21,7 @@ public class Store
         }        
     }
 }
+
 
 
 
