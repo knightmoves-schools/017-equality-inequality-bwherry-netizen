@@ -15,12 +15,13 @@ public class Store
             public int guess == 25;
 
             if (guess != 25){
-                return "not it"
+                return "not it";
                     
             } else {
-                return ""
+                return "";
             }
         }        
     }
 }
+
 
