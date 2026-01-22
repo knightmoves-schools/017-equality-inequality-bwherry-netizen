@@ -10,7 +10,7 @@ public class Store
             return "";
         }
 }
-        public int GuessNumber(int guess) {
+        public string GuessNumber(int guess) {
 
             if (guess != 25){
                 return "not it";
@@ -20,4 +20,5 @@ public class Store
             }
         }        
 }
+
 
