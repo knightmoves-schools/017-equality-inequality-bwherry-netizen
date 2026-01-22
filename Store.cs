@@ -9,7 +9,6 @@ public class Store
         } else {
             return "";
         }
-
         public int GuessNumber(int guess) {
 
             if (guess != 25){
@@ -21,9 +20,3 @@ public class Store
         }        
     }
 }
-
-
-
-
-
-
